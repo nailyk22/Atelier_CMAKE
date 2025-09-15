@@ -18,11 +18,6 @@ double _div(double a, double b) {
 
 double _square(double a)
 {
-	double result = 2;
-	for (int i = 0; i < a; i++)
-	{
-		result *= 2;
-	}
-	return result;
+	return a * a;
 }
 	
