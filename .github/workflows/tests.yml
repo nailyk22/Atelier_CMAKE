@@ -72,7 +72,11 @@ jobs:
           ./src/calculator div 1 5
   Deploy:
     runs-on: ubuntu-latest
-    needs: Test_Add, Test_Div, Test_Mul, Test_Sub
+    needs: 
+      - Test_Add
+      - Test_Div
+      - Test_Mul
+      - Test_Sub
     steps:
       - name: Deploy
         run: |
