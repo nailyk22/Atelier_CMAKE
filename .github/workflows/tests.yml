@@ -91,6 +91,7 @@ jobs:
       - Test_Div
       - Test_Mul
       - Test_Sub
+      - Test_Square
     steps:
       - name: Deploy
         run: |
