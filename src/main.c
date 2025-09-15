@@ -29,6 +29,9 @@ int main(int argc, char *argv[]){
 	else {printf("Erreur de parametres");}
 	}
 	else if (argc == 3 && strcmp(op, "car") == 0) {
+		char* op = argv[1];
+		char* a = argv[2];
+		double r = 0;
 		r = _square(atof(a));
 		printf("%lf",r);
 	}
